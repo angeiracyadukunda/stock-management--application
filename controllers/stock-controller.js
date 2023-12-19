@@ -33,3 +33,19 @@ const list = async (req, res, next)=>{
 const update = async (req, res, next)=>{
     
 }
+
+const remove = async (req, res, next )=>{
+
+}
+
+const  findById = async (req, res, next)=>{
+
+}
+
+const findEmail = async (req,res , next )=>{
+
+}
+
+module.exports = {
+    create, update,remove, findById, findEmail,list
+}
